@@ -1,6 +1,9 @@
 import pyiron_workflow as pwf
 from dataclasses import field
 from typing import Union, Optional, Any
+import pandas as pd
+import numpy as np
+import os
 
 @pwf.as_dataclass_node
 class DataInputs:
